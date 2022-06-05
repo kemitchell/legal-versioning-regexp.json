@@ -1,0 +1,19 @@
+{
+  "name": "legal-versioning-regexp",
+  "version": "1.0.0",
+  "description": "ECMAScript-compatible regular expression string for Legal Versioning numbers",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "repository": "kemitchell/legal-versioning-regexp.json",
+  "homepage": "https://legalversioning.com",
+  "license": "BlueOak-1.0.0",
+  "files": [
+    "index.json"
+  ],
+  "devDependencies": {
+    "defence-cli": "^3.0.1",
+    "replace-require-self": "^1.1.1"
+  },
+  "scripts": {
+    "test": "defence -i javascript < README.md | replace-require-self | node"
+  }
+}
