@@ -1,6 +1,6 @@
 {
   "name": "legal-versioning-regexp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ECMAScript-compatible regular expression string for Legal Versioning numbers",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "repository": "kemitchell/legal-versioning-regexp.json",
