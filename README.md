@@ -14,6 +14,8 @@ const valid = [
 for (const version of valid) assert(re.test(version))
 
 const invalid = [
+  '1', // no update or correction
+  '1.2', // no correction
   '001.2.3', // leading zeroes in edition
   '0.1.2', // zero edition
   '1.2.3-0', // zero draft
