@@ -4,6 +4,7 @@ const assert = require('assert')
 
 const valid = [
   '1.2.3',
+  '1.0.0',
   '10.20.30',
   '100.200.300',
   '1.2.3-4',
@@ -14,6 +15,8 @@ for (const version of valid) assert(re.test(version))
 
 const invalid = [
   '001.2.3', // leading zeroes in edition
+  '0.1.2', // zero edition
+  '1.2.3-0', // zero draft
   '01.2.3', // leading zero in edition
   '1.02.3', // leading zero in update
   '1.2.03', // leading zero in correction
